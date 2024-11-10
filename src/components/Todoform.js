@@ -1,4 +1,4 @@
-import { react, useState } from "react";
+import { useState } from "react";
 import shortid from "shortid";
 const Todoform = (props) => {
   const [text, setText] = useState("");
